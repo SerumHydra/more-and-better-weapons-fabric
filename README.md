@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# More and Better Weapons Frabric
 
 ## Setup
 
