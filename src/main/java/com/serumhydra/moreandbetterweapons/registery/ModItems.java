@@ -4,17 +4,18 @@ import com.serumhydra.moreandbetterweapons.moreandbetterweapons;
 import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     //items
-    public static final Item STEEL_INGOT = new Item(new Item.Settings());
-    public static final Item RAW_STEEL = new Item(new Item.Settings());
+    public static final Item STEEL_INGOT = new Item(new Item.Settings().group(moreandbetterweapons.ORE_GROUP));
+    public static final Item RAW_STEEL = new Item(new Item.Settings().group(moreandbetterweapons.ORE_GROUP));
     //tools
 
     //block items
-    public static final BlockItem STEEL_ORE = new BlockItem(ModBlocks.STEEL_ORE, new Item.Settings());
+    public static final BlockItem STEEL_ORE = new BlockItem(ModBlocks.STEEL_ORE, new Item.Settings().group(moreandbetterweapons.ORE_GROUP));
 
     public static void registerItems() {
         //register items

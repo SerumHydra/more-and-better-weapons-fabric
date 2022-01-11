@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "moreandbetterweapons/steel_ore"
+    "layer0": "moreandbetterweapons:items/steel_ore"
   }
 }

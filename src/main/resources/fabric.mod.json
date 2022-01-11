@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.serumhydra.moreandbetterweapons.MoreAndBetterWeapons"
+      "com.serumhydra.moreandbetterweapons.moreandbetterweapons"
     ]
   },
   "mixins": [
