@@ -14,13 +14,13 @@ public class ModItems {
     //tools
 
     //block items
-    public static final BlockItem STEEL_ORE = new BlockItem(ModBlocks.STEEL_ORE, new Item.Settings())
+    public static final BlockItem STEEL_ORE = new BlockItem(ModBlocks.STEEL_ORE, new Item.Settings());
 
     public static void registerItems() {
         //register items
         Registry.register(Registry.ITEM, new Identifier(moreandbetterweapons.MOD_ID, "steel_ingot"), STEEL_INGOT);
         Registry.register(Registry.ITEM, new Identifier(moreandbetterweapons.MOD_ID, "raw_steel"), RAW_STEEL);
         //register block items
-        Registry.register(Registry.ITEM, new Identifier(moreandbetterweapons.MOD_ID, "steel_ore"), STEEL_ORE)
+        Registry.register(Registry.ITEM, new Identifier(moreandbetterweapons.MOD_ID, "steel_ore"), STEEL_ORE);
     }
 }

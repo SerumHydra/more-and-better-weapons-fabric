@@ -14,6 +14,6 @@ public class ModBlocks {
 
     //register blocks
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier(moreandbetterweapons.MOD_ID, "steel_ore"), STEEL_ORE)
+        Registry.register(Registry.BLOCK, new Identifier(moreandbetterweapons.MOD_ID, "steel_ore"), STEEL_ORE);
     }
 }
