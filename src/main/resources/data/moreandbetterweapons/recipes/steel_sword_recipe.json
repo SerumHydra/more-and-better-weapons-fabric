@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i",
+    "/"
+  ],
+  "key": {
+    "i": {
+      "item": "moreandbetterweapons:steel_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "periodic:uranium_sword",
+    "count": 1
+  }
+}

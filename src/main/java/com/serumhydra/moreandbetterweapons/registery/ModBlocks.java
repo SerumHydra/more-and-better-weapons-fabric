@@ -11,8 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-    public static final Block STEEL_ORE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).strength(5f, 15f).sounds(BlockSoundGroup.STONE));
-
+    public static final Block STEEL_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(5f, 15f).sounds(BlockSoundGroup.STONE));
     //register blocks
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(moreandbetterweapons.MOD_ID, "steel_ore"), STEEL_ORE);
